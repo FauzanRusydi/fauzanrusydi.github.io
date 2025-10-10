@@ -10,3 +10,22 @@ console.log(ucapanUntukBudi);
 let ucapanUntukAni = sapa("Ani")
 console.log(ucapanUntukAni)
 
+const judul = document.getElementById('judul-utama');
+console.log(judul);
+
+const infoPertama = document.querySelector('.info');
+console.log(infoPertama);
+
+const semuaInfo = document.querySelectorAll('.info');
+console.log(semuaInfo);
+
+judul.innerText = "Selamat Datang Di Dunia DOM";
+
+const divinfo = document.querySelector('div.info');
+divinfo.innerHTML = "<strong>Teks ini sekarang tebal</strong>";
+
+judul.style.color = '#369';
+judul.style.backgroundColor ='lightgray';
+judul.style.padding = '15px';
+judul.style.textAlign = 'center';
+
