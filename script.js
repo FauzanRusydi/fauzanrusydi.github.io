@@ -29,3 +29,15 @@ judul.style.backgroundColor ='lightgray';
 judul.style.padding = '15px';
 judul.style.textAlign = 'center';
 
+const kotak = document.getElementById('kotak');
+const tombolReset = document.getElementById('tombol-reset');
+
+kotak.addEventListener('click', function (){
+    kotak.innerText = "Anda baru saja mengklik saya!";
+    kotak.style.backgroundColor = "lightgreen";
+})
+
+kotak.addEventListener('mouseover', function(){
+    kotak.innerText = "Arahkan mouse ke sini atau klok saya!";
+    kotak.style.backgroundColor = "";bold
+})
